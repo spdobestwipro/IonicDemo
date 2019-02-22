@@ -1,6 +1,6 @@
 {
-  "name": "ionic2-app-base",
+  "name": "IonicKickStart",
   "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "v2": true,
+  "typescript": true
 }

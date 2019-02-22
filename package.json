@@ -1,5 +1,5 @@
 {
-  "name": "ionic-app-base",
+  "name": "ionic-hello-world",
   "version": "0.0.0",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -33,5 +33,15 @@
   "devDependencies": {
     "@ionic/app-scripts": "3.1.0",
     "typescript": "2.4.2"
-  }
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-device",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-console",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [],
+  "description": "IonicKickStart: An Ionic project"
 }
